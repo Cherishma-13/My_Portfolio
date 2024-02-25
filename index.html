@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!------Nav Menu------>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name"><img src="https://png.pngtree.com/png-vector/20190302/ourmid/pngtree-vector-portfolio-icon-png-image_735701.jpg" alt="logo"></p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link ">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link ">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa fa-moon" id="moon"></i>
+                    <i class="fa fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <img src="/menu.png" alt="menu" onclick="myMenuFunction()">
+                
+            </div>
+        </nav>
+
+        <!-----main----->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello"><p>Hello I,m</p></div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Cherishma!I,m a web developer</p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Hire Me</button>
+                        <button class="btn"><a href="Cherishma_Morusu.pdf" target="_blank">Download CSV</a></button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon_circle"></div>
+                        <div class="icon">
+                        <a href="https://www.instagram.com/cherishma_chowdary_4?igsh=MTV5bWIzOG56NmpmdQ==" target="_blank"><img src="./instagram.png" alt="insta"></a> </div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/cherishma-morusu-166937257/" target="_blank"><img src="./linkedin.png" alt="linkedin"></a> </div>
+                        <div class="icon"><a href="https://github.com/Cherishma513" target="_blank"><img src="./github.png" alt="github"></a></div>
+                    </div>
+                </div>
+                
+                
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./my_image.jpeg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!---about me-->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="" alt=""/>
+                                    <h2>My Education</h2>
+                                    <p>
+                                        <ul>
+                                            <li>
+                                                Completed Intermediate in Narayana Junior College Anantapur
+                                                August 2019 - May 2021
+
+                                                </li>
+                                                <li> Studying B.Tech in JNTUA college of Engineering,Anantapur
+                                                    September 2021 - June 2025
+                                                </li>
+                                        </ul>
+                                    </p>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar html">
+                                <span class="skill-per">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar css">
+                                <span class="skill-per">
+                                    <span class="tooltip">80%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">JS</span>
+                            <div class="skill-bar javascript">
+                                <span class="skill-per">
+                                    <span class="tooltip">75%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">React</span>
+                            <div class="skill-bar react">
+                                <span class="skill-per">
+                                    <span class="tooltip">50%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Python</span>
+                            <div class="skill-bar python">
+                                <span class="skill-per">
+                                    <span class="tooltip">85%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!----Project Box-->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        
+                        <img src="./age_calculator.png" alt="image">
+                    <div class="layer"> <h2>Age Calculator</h2><button>Github</button></div>
+                    </div>
+                    <div class="project-box">
+                        <img src="./food_website.png" alt="image">
+                    <div class="layer"> <h2>Food Website</h2><button>Github</button></div>
+                    </div>
+                    <div class="project-box">
+                        <img src="./random_color.png" alt="image">
+                    <div class="layer"> <h2>Random Color Generator</h2><button>Github</button></div>
+                    </div>
+                    
+                </div>
+            </section>
+            <!---contact box-->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <div class="education">
+                        <p>Do you have a project in your mind contact me here</p>
+                    </div>
+                </div>
+                
+                <div class="contact">
+                    <div class="myContact">
+                        <p>Find Me</p>
+                        <p>Email:cherishma513@gmail.com</p>
+                        <p>Phone:9381689028</p>
+                    </div>
+                    
+                    <div class="contact-form">
+                        
+                        <input type="text" class="input-field" placeholder="Your name">
+                        <input type="text" class="input-field" id="Your Email" placeholder="Enter Email">
+                        <textarea placeholder="Message"></textarea>
+                        <div class="form-button">
+                            <button class="btn">Send</button>
+                        </div>
+                    </div>
+                
+                </div>
+                
+            </section>
+        </main>
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">about</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="bottom-footer">
+                <p>copyright &copy; -All rights reserved</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        function myMenuFunction(){
+            let bar = document.getElementById("myNavMenu")
+            let s = window.getComputedStyle(bar).visibility
+            if (s == 'hidden'){
+                bar.classList.add("active");
+            }
+            else{
+                bar.classList.remove("active");
+
+            }
+        }
+    </script>
+</body>
+</html>
